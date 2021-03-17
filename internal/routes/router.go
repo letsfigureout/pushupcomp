@@ -26,5 +26,5 @@ func API(log *log.Logger) http.Handler {
 
 func (api *APIRoute) IndexRoute(w http.ResponseWriter, r *http.Request) {
 
-	fmt.Fprintf(w, "Index")
+	fmt.Fprintf(w, "Ping")
 }
